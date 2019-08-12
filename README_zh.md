@@ -24,7 +24,7 @@ lame, fad-aac, x264的编译其实很简单，github上有现成的build shell, 
 2. 更改脚本文件的权限, `sudo chmod 777 build-lame.sh`.
 3. 运行脚本, `sudo sh ./build-lame.sh` 
 
-你也可以参考脚本使用说明 [lame build guide](lame-3.100/README.md).
+你也可以参考脚本使用说明 [lame shell脚本使用说明](lame-3.100/README.md).
 
 #### Build fdk-aac    
 
@@ -32,7 +32,7 @@ lame, fad-aac, x264的编译其实很简单，github上有现成的build shell, 
 2. 更改脚本文件的权限, `sudo chmod 777 build-fdk-aac.sh`.
 3. 运行脚本, `sudo sh ./build-fdk-aac.sh` 
 
-你也可以参考脚本使用说明 [fdk-aac build guide](fdk-aac-2.0.0/README.md).
+你也可以参考脚本使用说明 [fdk-aac shell脚本使用说明](fdk-aac-2.0.0/README.md).
 
 #### Build x264  
 
@@ -40,7 +40,7 @@ lame, fad-aac, x264的编译其实很简单，github上有现成的build shell, 
 2. 更改脚本文件的权限, `sudo chmod 777 build-x264.sh`.
 3. 运行脚本, `sudo sh ./build-x264.sh` 
 
-你也可以参考脚本使用说明 [x264 build guide](x264-20190809-2245/README.md).
+你也可以参考脚本使用说明 [x264 shell脚本使用说明](x264-20190809-2245/README.md).
 
 #### 编译可能碰到的问题
 

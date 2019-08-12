@@ -11,7 +11,7 @@ Today, LAME is considered the best MP3 encoder at mid-high bitrates and at VBR, 
 2. Change shell rights, `sudo chmod 777 build-lame.sh`.
 3. Run build shell, `sudo sh ./build-lame.sh` 
 
-You can also refer [lame build guide](lame-3.100/README.md).
+You can also refer [lame shell usage](lame-3.100/README.md).
 
 
 ## [fdk-aac](https://sourceforge.net/projects/opencore-amr/files/fdk-aac/)
@@ -24,7 +24,7 @@ The Fraunhofer FDK AAC is a high-quality open-source AAC encoder library develop
 2. Change shell rights, `sudo chmod 777 build-fdk-aac.sh`.
 3. Run build shell, `sudo sh ./build-fdk-aac.sh` 
 
-You can also refer [fdk-aac build guide](fdk-aac-2.0.0/README.md).
+You can also refer [fdk-aac shell usage](fdk-aac-2.0.0/README.md).
 
 ## [x264](https://www.videolan.org/developers/x264.html)
 
@@ -36,7 +36,7 @@ x264 is a free and open-source software library and a command-line utility devel
 2. Change shell rights, `sudo chmod 777 build-x264.sh`.
 3. Run build shell, `sudo sh ./build-x264.sh` 
 
-You can also refer [x264 build guide](x264-20190809-2245/README.md).
+You can also refer [x264 shell usage](x264-20190809-2245/README.md).
 
 
 ## Possible Issues
