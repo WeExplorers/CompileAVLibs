@@ -7,7 +7,7 @@ Today, LAME is considered the best MP3 encoder at mid-high bitrates and at VBR, 
 
 #### Build lame  
 
-1. Enter lame-3.100 folder, `cd lame-3.100`.
+1. Enter **lame-3.100** folder, `cd lame-3.100`.
 2. Change shell rights, `sudo chmod 777 build-lame.sh`.
 3. Run build shell, `sudo sh ./build-lame.sh` 
 
@@ -20,7 +20,7 @@ The Fraunhofer FDK AAC is a high-quality open-source AAC encoder library develop
 
 #### Build fdk-aac  
 
-1. Enter fdk-aac-2.0.0 folder, `fdk-aac-2.0.0`.
+1. Enter **fdk-aac-2.0.0** folder, `fdk-aac-2.0.0`.
 2. Change shell rights, `sudo chmod 777 build-fdk-aac.sh`.
 3. Run build shell, `sudo sh ./build-fdk-aac.sh` 
 
@@ -32,7 +32,7 @@ x264 is a free and open-source software library and a command-line utility devel
 
 #### Build x264  
 
-1. Enter x264-20190809-2245 folder, `x264-20190809-2245`.
+1. Enter **x264-20190809-2245** folder, `x264-20190809-2245`.
 2. Change shell rights, `sudo chmod 777 build-x264.sh`.
 3. Run build shell, `sudo sh ./build-x264.sh` 
 
@@ -52,4 +52,9 @@ You can also refer [x264 build guide](x264-20190809-2245/README.md).
   You can resolve it by any one of below two ways:
   1. Remove `i386` from `ARCHS="x86_64 i386 arm64e arm64 armv7s"` in build shell .
   2. Run `sudo sh ./build-xxx.sh arm64e arm64 x86_64 armv7s`.
+
+  
+## Reference
+
+- https://www.jianshu.com/p/b7881a4467db
 
