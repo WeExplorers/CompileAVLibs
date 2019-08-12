@@ -14,9 +14,9 @@ x264是一个免费的开源软件库和VideoLAN开发的命令行实用程序�
 
 # 编译
 
-lame, fad-aac, x264的编译其实很简单，github上有现成的build shell, 但有些并非在机器上就能跑起来。所以针对一些错误，我对一些build shell做了少许改动力，支持 x86_64, arm64e, arm64, armv7s, armv7架构的编译。
+lame, fad-aac, x264的编译其实很简单，github上有现成的build shell, 但有些并非在机器上就能跑起来。所以针对一些错误，我对一些build shell做了少许改动，支持 x86_64, arm64e, arm64, armv7s, armv7架构的编译。
 
-接下来我们就要开始编译了，请先从[这里下载](https://github.com/masterav/CompileAVLibs)编译需要用的代码、脚本和一些说明，下载后，直接进行编译就行，很省时间。
+接下来我们就要开始编译了，请先从[这里下载](https://github.com/masterav/CompileAVLibs)编译需要用的代码、脚本和一些说明，下载后，直接进行编译就行，省时省力。
 
 #### Build lame  
 
@@ -24,7 +24,7 @@ lame, fad-aac, x264的编译其实很简单，github上有现成的build shell, 
 2. 更改脚本文件的权限, `sudo chmod 777 build-lame.sh`.
 3. 运行脚本, `sudo sh ./build-lame.sh` 
 
-你也可以参考脚本使用说明 [lame shell脚本使用说明](lame-3.100/README.md).
+你也可以参考脚本使用说明 [lame shell 脚本使用说明](https://github.com/masterav/CompileAVLibs/blob/master/lame-3.100/README.md).
 
 #### Build fdk-aac    
 
@@ -32,7 +32,7 @@ lame, fad-aac, x264的编译其实很简单，github上有现成的build shell, 
 2. 更改脚本文件的权限, `sudo chmod 777 build-fdk-aac.sh`.
 3. 运行脚本, `sudo sh ./build-fdk-aac.sh` 
 
-你也可以参考脚本使用说明 [fdk-aac shell脚本使用说明](fdk-aac-2.0.0/README.md).
+你也可以参考脚本使用说明 [fdk-aac shell 脚本使用说明](https://github.com/masterav/CompileAVLibs/blob/master/fdk-aac-2.0.0/README.md).
 
 #### Build x264  
 
@@ -40,7 +40,7 @@ lame, fad-aac, x264的编译其实很简单，github上有现成的build shell, 
 2. 更改脚本文件的权限, `sudo chmod 777 build-x264.sh`.
 3. 运行脚本, `sudo sh ./build-x264.sh` 
 
-你也可以参考脚本使用说明 [x264 shell脚本使用说明](x264-20190809-2245/README.md).
+你也可以参考脚本使用说明 [x264 shell 脚本使用说明](https://github.com/masterav/CompileAVLibs/blob/master/x264-20190809-2245/README.md).
 
 #### 编译可能碰到的问题
 
