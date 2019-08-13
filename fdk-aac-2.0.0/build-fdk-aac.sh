@@ -6,7 +6,7 @@ ARCHS="x86_64 i386 arm64e arm64 armv7s"
 
 # directories
 SOURCE="fdk-aac"
-FAT="fdk-aac-ios"
+FAT="fat-fdk-aac"
 
 SCRATCH="scratch"
 # must be an absolute path

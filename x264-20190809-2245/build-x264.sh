@@ -6,7 +6,7 @@ ARCHS="x86_64 arm64e arm64 armv7 armv7s"
 
 # directories
 SOURCE="x264"
-FAT="x264-iOS"
+FAT="fat-x264"
 
 SCRATCH="scratch-x264"
 # must be an absolute path
