@@ -51,6 +51,7 @@ A complete, cross-platform solution to record, convert and stream audio and vide
 2. Change shell rights, `sudo chmod 777 build-ffmpeg.sh`.
 3. If you want ffmpeg use the external x264, lame, fdk-aac libs, please copy the `fat-x264, fat-lame, fat-fdk-aac` folders which are generated from previous steps to `external_libs` folder. or else you must comment `X264, LAME, FDK_AAC` in `build-ffmpeg.sh`.
 4. Run build shell, `sudo sh ./build-ffmpeg.sh` 
+5. Finally, you'll get ffmpeg libs under the folder `fat-ffmpeg`.
 
 You can also refer [ffmpeg shell usage](https://github.com/masterav/CompileAVLibs/blob/master/ffmpeg-4.2/README.md).
 

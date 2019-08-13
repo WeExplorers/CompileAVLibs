@@ -51,7 +51,8 @@ lame, fad-aac, x264的编译其实很简单，github上有现成的build shell, 
 1. 进入目录 `ffmpeg-4.2` , `cd x264-20190809-2245`.
 2. 更改脚本文件的权限, `sudo chmod 777 build-ffmpeg.sh`.
 3. 如果想让ffmpeg使用`x264, lame, fdk-aac`的话，还请手动将之前编译环节中产生的`fat-x264, fat-lame, fat-fdk-aac`三个文件夹复制到`ffmpeg-4.2/external-libs`下面。反之，你需要把`X264, LAME, FDK_AAC`从`build-ffmpeg.sh`中注释掉.
-3. 运行脚本, `sudo sh ./build-ffmpeg.sh`。
+4. 运行脚本, `sudo sh ./build-ffmpeg.sh`。
+5. 最后，你可以在`fat-ffmpeg`目录下找到相关静态库。
 
 你也可以参考脚本使用说明 [ffmpeg shell 脚本使用说明](https://github.com/masterav/CompileAVLibs/blob/master/ffmpeg-4.2/README.md).
 
