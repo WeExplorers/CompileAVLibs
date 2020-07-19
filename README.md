@@ -23,7 +23,7 @@ The Fraunhofer FDK AAC is a high-quality open-source AAC encoder library develop
 
 1. Enter **fdk-aac-2.0.0** folder, `cd fdk-aac-2.0.0`.
 2. Change shell rights, `sudo chmod 777 build-fdk-aac.sh`.
-3. Run build shell, `sudo sh ./build-fdk-aac.sh` 
+3. Run build shell, `./build-fdk-aac.sh` 
 4. You can find the lib under the directory **fat-fdk-aac**.
 
 You can also refer [fdk-aac shell usage](https://github.com/masterav/CompileAVLibs/blob/master/fdk-aac-2.0.0/README.md).
@@ -36,7 +36,7 @@ x264 is a free and open-source software library and a command-line utility devel
 
 1. Enter **x264-20190809-2245** folder, `cd x264-20190809-2245`.
 2. Change shell rights, `sudo chmod 777 build-x264.sh`.
-3. Run build shell, `sudo sh ./build-x264.sh` 
+3. Run build shell, `./build-x264.sh` 
 4. You can find the lib under the directory **fat-x264**.
 
 You can also refer [x264 shell usage](https://github.com/masterav/CompileAVLibs/blob/master/x264-20190809-2245/README.md).
@@ -50,7 +50,7 @@ A complete, cross-platform solution to record, convert and stream audio and vide
 1. Enter `ffmpeg-4.2` folder, `cd ffmpeg-4.2`.
 2. Change shell rights, `sudo chmod 777 build-ffmpeg.sh`.
 3. If you want ffmpeg use the external x264, lame, fdk-aac libs, please copy the `fat-x264, fat-lame, fat-fdk-aac` folders which are generated from previous steps to `external_libs` folder. or else you must comment `X264, LAME, FDK_AAC` in `build-ffmpeg.sh`.
-4. Run build shell, `sudo sh ./build-ffmpeg.sh` 
+4. Run build shell, `./build-ffmpeg.sh` 
 5. Finally, you'll get ffmpeg libs under the folder `fat-ffmpeg`.
 
 You can also refer [ffmpeg shell usage](https://github.com/masterav/CompileAVLibs/blob/master/ffmpeg-4.2/README.md).
